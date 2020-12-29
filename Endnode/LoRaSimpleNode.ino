@@ -156,9 +156,6 @@ void encypt(String message){
   //const char *nwkSKey = "94C86149ADA8D177C799628EA280CD74"; //LSB nwkSKey
   const char *appSKey = "E378681D1B3C9FF71A0ADE630CB3FA05";//MSB
 
-  Serial.print("nwkSKey: ");
-  Serial.println((char*)nwkSKey);
-
   Serial.print("size of Buffer->Data: ");
   Serial.println(strlen((char*)Buffer->Data));
   Serial.println();
@@ -182,7 +179,6 @@ void encypt(String message){
       if(i==len){hex_str[i] = '\0';}
   } 
 
-  Serial.print("Buffer AFTER HEXification: ");
   Serial.println(hex_str);
   Serial.println();
   
