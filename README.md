@@ -147,6 +147,6 @@ TTN TheThingsNetwork
 
 [  About the End Node Sketch  ]
 
-The arduino LoRaWAN endnode sketch (LoRaSimpleNode_HardCodedMsg.ino) serves the LoRaWAN Gateway with a static transmission and repeats the transmission indefinitely. Simply broadcasting on the US LoRaWAN band, the gateway will pick up the end node's packets.
+The arduino LoRaWAN endnode sketch (LoRaSimpleNode.ino) serves the LoRaWAN Gateway with a transmission indefinitely. Simply broadcasting on the US LoRaWAN band, the gateway will pick up the end node's packets.
 
 The required libs are downloaded using the Arduino IDE.
